@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.avatar {/*avatar, name, location settings*/
+    width: 6.36rem;
+    border-radius: 10px;
+}
+
+.name {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    color: #4e5150;
+}
+
+.location {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 10px;
+    color: #a9a9a9;
+    margin-top: .25rem;
+}
+
+.name_location {
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}/*avatar, name, location settings*/
+
+.info {/*posts, followers, following*/
+    background-color: #e5e5e5;
+    width: 4.875rem;
+    height: 3.25rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 12px;
+    color: #4e5150;
+}
+
+.ofwhat {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 12px;
+    color: #bdbdbd;
+}
+
+.profileinfo {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.profile_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}/*posts, followers, following*/
+
+.ph1 {/*interior pictures*/
+    width: 6.8rem;
+    height: 6.8rem;
+    border-radius: 12px;
+}
+
+.ph2 {
+    width: 14.3rem;
+    height: 6.8rem;
+    border-radius: 12px;
+}
+
+.ph3 {
+    width: 6.75rem;
+    height: 14.375rem;
+    border-radius: 12px;
+}
+
+.row1 {
+    display: flex;
+    gap: .75rem;
+    justify-content: center;
+}
+
+.subrow {
+    display: flex;
+    gap: .75rem;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.row3 {
+    display: flex;
+    gap: .75rem;
+    justify-content: center;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+}/*interior pictures*/
+
+@media screen and (min-width: 1024px) {
+    .avatar {
+        width: 9.75rem;
+        height: 9.75rem;
+        border-radius: 16px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .location {
+        font-size: 14px;
+    }
+
+    .info {
+        width: 6.25rem;
+        height: 4.2rem;
+    }
+
+    .number{
+        font-size: 18px;
+    }
+
+    .ofwhat {
+        font-size: 14px;
+    }
+
+    .ph1 {
+        width: 18.7rem;
+        height: 18.7rem;
+    }
+
+    .ph2 {
+        width: 39.3rem;
+        height: 18.7rem;
+    }
+
+    .ph3 {
+        width: 18.56rem;
+        height: 38.1rem;
+    }
+
+    .subrow {
+        gap: 2rem;
+    }
+    
+    body {
+        padding-bottom: 5rem;
+    }
+}
