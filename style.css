@@ -24,14 +24,14 @@ img {
 .name {
     font-family: "Montserrat";
     font-weight: 600;
-    font-size: 14px;
+    font-size: .875rem;
     color: #4e5150;
 }
 
 .location {
     font-family: "Montserrat";
     font-weight: 600;
-    font-size: 10px;
+    font-size: .625rem;
     color: #595959;
     margin-top: .25rem;
 }
@@ -62,14 +62,14 @@ img {
 .number {
     font-family: "Montserrat";
     font-weight: 600;
-    font-size: 12px;
+    font-size: .75rem;
     color: #4e5150;
 }
 
 .ofwhat {
     font-family: "Montserrat";
     font-weight: 600;
-    font-size: 12px;
+    font-size: .75rem;
     color: #4A4A4A;
 }
 
@@ -150,11 +150,11 @@ body {
     }
 
     .name {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .location {
-        font-size: 14px;
+        font-size: .875rem;
     }
 
     .info {
@@ -163,11 +163,11 @@ body {
     }
 
     .number{
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .ofwhat {
-        font-size: 14px;
+        font-size: .875rem;
     }
 
     .ph1 {
